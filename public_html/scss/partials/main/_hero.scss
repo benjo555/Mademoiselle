@@ -2,6 +2,9 @@
     padding: 21.8rem 0 26.9rem;
     background-size: cover;
     background-position: top center;
+    @media(min-width: 992px){
+        margin-bottom: 75px !important;
+    }
     .hero-section-title{
         font-family: $bodoni !important;
         max-width: 70.4rem;

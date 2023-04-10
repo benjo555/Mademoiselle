@@ -10,10 +10,33 @@ p{
     font-size: 1.8rem;
     line-height: 2.6rem;
 }
-.section-title{
+.homepage-title{
     font-family: $bodoni;
-    font-weight: 300;
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    &:after{
+        content: '';
+        display: block;
+        height: 0.1rem;
+        width: 7.4rem;
+        background-color: $light;
+        margin-top: 1.1rem;
+        margin-inline: auto;
+        @media(min-width: 992px){
+            margin-inline: 0;
+        }
+    }
+}
+a{
+    color: $body-color;
+}
+.ratio{
+    display: block;
+    overflow: hidden;
+}
+
+.ratio > *{
+    object-fit: cover;
 }
