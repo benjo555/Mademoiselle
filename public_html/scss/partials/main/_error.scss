@@ -1,0 +1,23 @@
+.error-section{
+    padding: 27.8rem 0;
+    background-size: cover;
+    background-position: top center;
+    .error-section-title{
+        font-family: $bodoni !important;
+        max-width: 70.4rem;
+        margin-bottom: 3.2rem;
+        margin-inline: auto;
+        letter-spacing: 1rem;
+        @media(min-width: 992px){
+            letter-spacing: 2rem;
+            line-height: 8.4rem;
+        }
+    }
+    .error-btn{
+        border-radius: 0;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+        padding: 1.3rem 3rem 1.5rem;
+    }
+}
