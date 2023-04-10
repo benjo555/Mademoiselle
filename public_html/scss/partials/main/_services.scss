@@ -1,0 +1,28 @@
+.services{
+    @media(min-width: 992px){
+        margin-bottom: 9rem !important;
+    }
+    @media(min-width: 1200px){
+        margin-bottom: 11.1rem !important;
+    }
+    .services-item{
+        &:nth-of-type(even){
+            background-color: $light;
+        }
+        &:nth-of-type(odd){
+            background-color: $secondary;
+            @media(min-width: 768px){
+                .services-item-img{
+                    order: 1;
+                }
+            }
+        }
+        
+        .services-item-data{
+            max-width: 368px;
+            margin-inline: auto !important;
+        }
+    }
+
+
+}

@@ -21,7 +21,10 @@ footer{
         font-size: 1.6rem;
         letter-spacing: -0.17px;
         a{
-            color: #1E1E1E;
+            transition: 0.4s linear;
+            &:hover{
+                color: darken($light, 8%) !important;
+            }
         }
     }
 }
