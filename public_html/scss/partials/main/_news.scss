@@ -28,6 +28,12 @@
                 -webkit-box-orient: vertical;
                 overflow: hidden;
             }
+            a{
+                transition: 0.3s linear;
+                &:hover{
+                    color: darken($light, 30%) !important;
+                }
+            }
         }
     }
 }

@@ -1,4 +1,7 @@
 .services{
+
+
+
     @media(min-width: 992px){
         margin-bottom: 9rem !important;
     }
@@ -17,12 +20,41 @@
                 }
             }
         }
-        
+
         .services-item-data{
             max-width: 368px;
             margin-inline: auto !important;
+            .services-item-data-title{
+                @media(min-width: 1200px){
+                    font-size: 3.6rem;
+                    line-height: 4.4rem;
+                }
+                a{
+                    transition: 0.3s linear;
+                    &:hover{
+                        color: darken($light, 30%) !important;
+                    }
+                }
+            }
+            a{
+                &.btn{
+                    border-radius: 0;
+                    font-size: 1.4rem;
+                    line-height: 4.5rem;
+                    letter-spacing: 0.5px;
+                    padding: 0 3.6rem;
+                    transition: 0.3s linear;
+                }
+                &:hover{
+                    mix-blend-mode: multiply;
+                }
+            }
         }
     }
-
-
 }
+.service-hero + .services{
+    @media(min-width: 768px){
+        margin-bottom: 3.7rem !important;
+    }
+}
+

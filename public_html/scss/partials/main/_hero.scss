@@ -3,7 +3,10 @@
     background-size: cover;
     background-position: top center;
     @media(min-width: 992px){
-        margin-bottom: 75px !important;
+        margin-bottom: 7.5rem !important;
+        .hero-section.service-hero &{
+                margin-bottom: 8.8rem !important;
+        }
     }
     .hero-section-title{
         font-family: $bodoni !important;
