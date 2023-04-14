@@ -1,0 +1,18 @@
+.blog-news{
+    margin-bottom: 0.8rem !important;
+}
+
+.blog{
+    .blog-pagination{
+        font-family: $bodoni;
+        .page-item{
+            .page-link{
+                color: $body-color;
+                transition: 0.4s linear;
+                &:hover{
+                    color: darken($light, 30%);
+                }
+            }
+        }
+    }
+}
