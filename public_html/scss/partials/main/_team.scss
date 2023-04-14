@@ -4,8 +4,9 @@
     }
     .team-wrapper{
         border: 1px solid $light;
-        padding: 5.4rem 0;
-
+        @media(min-width: 992px){
+            padding: 5.4rem 0 !important;
+        }
         .team-member{
             .team-member-info{
                 .team-member-name{
@@ -42,6 +43,6 @@
             margin: 5px 4.5px;
         }
     }
-    
+
 
 }

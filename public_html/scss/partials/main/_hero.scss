@@ -4,10 +4,8 @@
     background-position: top center;
     @media(min-width: 992px){
         margin-bottom: 7.5rem !important;
-        .hero-section.service-hero &{
-                margin-bottom: 8.8rem !important;
-        }
     }
+
     .hero-section-title{
         font-family: $bodoni !important;
         max-width: 70.4rem;
@@ -17,5 +15,10 @@
             letter-spacing: 2rem;
             line-height: 8.4rem;
         }
+    }
+}
+.hero-section.service-hero {
+    @media(min-width: 992px){
+        margin-bottom: 8.8rem !important;
     }
 }

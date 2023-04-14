@@ -25,6 +25,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="application-name" content='Template'>
         <link rel="icon" type="image/png" href="./android-icon-192x192.png">
+
         <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
         <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
 
@@ -81,7 +82,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <main>
             <section class="hero-section text-white text-center mb-8 mb-md-10" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%), url('./img/hero/homepage.png')"><!-- Hero start -->
                 <div class="container">
-                    <h2 class="display-1 hero-section-title mb-0">Welcome to Mademoiselle</h2>
+                    <h2 class="display-1 hero-section-title mb-0 animation" data-animation="slideDown">Welcome to Mademoiselle</h2>
                 </div>
             </section><!-- Hero end -->
             <section class="news mb-6 mb-md-8 mb-lg-10"><!-- News start -->
@@ -89,11 +90,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <h2 class="news-title homepage-title mb-5 mb-md-7 mb-lg-9 text-center text-lg-start">
                         Stay Up with the Latest Beauty Trends
                     </h2>
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-6"><!-- News item 1 start -->
+                    <div class="row animation" data-animation="slideRight">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-6 animation" data-animation="slideRight" data-delay="0.2s"><!-- News item 1 start -->
                             <article class="news-item h-100">
                                 <a href="#" class="news-item-img ratio ratio-4x3">
-                                    <img src="img/news/trend-01.png" alt=""/>
+                                    <img src="img/news/news-04.png" alt=""/>
                                 </a>
                                 <div class="news-item-data text-center">
                                     <p class="news-item-data-date">07/13/2019</p>
@@ -106,10 +107,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                                 </div>
                             </article>
                         </div><!-- News item 1 end -->
-                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-6"><!-- News item 2 start -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-6 animation" data-animation="slideRight" data-delay="0.4s"><!-- News item 2 start -->
                             <article class="news-item h-100">
                                 <a href="#" class="news-item-img ratio ratio-4x3">
-                                    <img src="img/news/trend-02.png" alt=""/>
+                                    <img src="img/news/news-05.png" alt=""/>
                                 </a>
                                 <div class="news-item-data text-center">
                                     <p class="news-item-data-date">05/15/2019</p>
@@ -121,10 +122,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                                 </div>
                             </article>
                         </div><!-- News item 2 end -->
-                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0 mx-md-auto mx-lg-0"><!-- News item 3 start -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0 mx-md-auto mx-lg-0 animation" data-animation="slideRight" data-delay="0.6s"><!-- News item 3 start -->
                             <article class="news-item h-100">
                                 <a href="#" class="news-item-img ratio ratio-4x3">
-                                    <img src="img/news/trend-03.png" alt=""/>
+                                    <img src="img/news/news-06.png" alt=""/>
                                 </a>
                                 <div class="news-item-data text-center">
                                     <p class="news-item-data-date">02/15/2019</p>
@@ -145,79 +146,87 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <h2 class="services-title homepage-title mb-5 mb-md-7 mb-lg-9 text-center text-lg-start">
                         our services
                     </h2>
-                    <article class="services-item"><!-- Services item 1 start -->
+                    <article class="services-item animation" data-animation="slideRight"><!-- Services item 1 start -->
                         <div class="row g-0 align-items-md-center">
                             <div class="col-12 col-md-6 services-item-img">
                                 <a href="service-single.html" class="h-100 ratio ratio-services">
                                     <img src="img/services/services-01.png" alt=""/>
                                 </a> 
                             </div>
-                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0">
-                                <h4 class="services-item-data-title text-uppercase mb-7">
-                                    <a href="service-single.html">
-                                        Lip augmentation Lip filling with hyaluronum
+                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0 animation" data-animation="slideRight" data-delay='0.4s'>
+                                <article class="services-item-data-wrapper h-100">
+                                    <h4 class="services-item-data-title text-uppercase mb-7">
+                                        <a href="service-single.html">
+                                            Lip augmentation Lip filling with hyaluronum
+                                        </a>
+                                    </h4>
+                                    <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
+                                        learn more
                                     </a>
-                                </h4>
-                                <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
-                                    learn more
-                                </a>
+                                </article>
                             </div>
                         </div>
                     </article><!-- Services item 1 end -->
-                    <article class="services-item"><!-- Services item 2 start -->
+                    <article class="services-item animation" data-animation="slideLeft"><!-- Services item 2 start -->
                         <div class="row g-0 align-items-md-center">
                             <div class="col-12 col-md-6 services-item-img">
                                 <a href="service-single.html" class="h-100 ratio ratio-services">
                                     <img src="img/services/services-02.png" alt=""/>
                                 </a> 
                             </div>
-                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0">
-                                <h4 class="services-item-data-title text-uppercase mb-7">
-                                    <a href="service-single.html">
-                                        male and female haircut
+                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0 animation" data-animation="slideLeft" data-delay='0.4s'>
+                                <article class="services-item-data-wrapper h-100">
+                                    <h4 class="services-item-data-title text-uppercase mb-7">
+                                        <a href="service-single.html">
+                                            male and female haircut
+                                        </a>
+                                    </h4>
+                                    <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
+                                        learn more
                                     </a>
-                                </h4>
-                                <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
-                                    learn more
-                                </a>
+                                </article>
                             </div>
                         </div>
                     </article><!-- Services item 2 end -->
-                    <article class="services-item"><!-- Services item 3 start -->
+                    <article class="services-item animation" data-animation="slideRight"><!-- Services item 3 start -->
                         <div class="row g-0 align-items-md-center">
                             <div class="col-12 col-md-6 services-item-img">
                                 <a href="service-single.html" class="h-100 ratio ratio-services">
                                     <img src="img/services/services-03.png" alt=""/>
                                 </a> 
                             </div>
-                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0">
-                                <h4 class="services-item-data-title text-uppercase mb-7">
-                                    <a href="service-single.html">
-                                        Day and night makeup
+                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0 animation" data-animation="slideRight" data-delay='0.4s'>
+                                <article class="services-item-data-wrapper h-100">
+                                    <h4 class="services-item-data-title text-uppercase mb-7">
+                                        <a href="service-single.html">
+                                            Day and night makeup
+                                        </a>
+                                    </h4>
+                                    <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
+                                        learn more
                                     </a>
-                                </h4>
-                                <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
-                                    learn more
-                                </a>
+                                </article>
                             </div>
                         </div>
                     </article><!-- Services item 3 end -->
-                    <article class="services-item"><!-- Services item 4 start -->
+                    <article class="services-item animation" data-animation="slideLeft"><!-- Services item 4 start -->
                         <div class="row g-0 align-items-md-center">
                             <div class="col-12 col-md-6 services-item-img">
                                 <a href="service-single.html" class="h-100 ratio ratio-services">
                                     <img src="img/services/services-04.png" alt=""/>
                                 </a> 
                             </div>
-                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0">
-                                <h4 class="services-item-data-title text-uppercase mb-7">
-                                    <a href="service-single.html">
-                                        Waxing with cold and warm wax
+                            <div class="col-12 col-md-6 services-item-data p-7 p-lg-0 animation" data-animation="slideLeft" data-delay='0.4s'>
+                                <article class="services-item-data-wrapper h-100">
+                                    <h4 class="services-item-data-title text-uppercase mb-7">
+                                        <a href="service-single.html">
+                                            Waxing with cold and warm wax
+                                        </a>
+                                    </h4>
+                                    <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
+                                        learn more
                                     </a>
-                                </h4>
-                                <a href="service-single.html" class="btn btn-outline-danger text-uppercase">
-                                    learn more
-                                </a>
+                                </article>
                             </div>
                         </div>
                     </article><!-- Services item 4 end -->
