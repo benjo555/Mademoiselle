@@ -32,6 +32,22 @@ $(document).ready(function () {
         $(this).toggleClass('fa-plus fa-minus');
         $(this).parent().next('.submenu').slideToggle();
     });
+if($('.team-slider').length > 0){
+    $('.team-slider').owlCarousel({
+       items: 1,
+       loop: true,
+       dots: true,
+       responsive: {
+           320: {
+               margin: 20
+           },
+           768: {
+               margin: 0
+           }
+       }
+    });
+}
+
 
 /*
 

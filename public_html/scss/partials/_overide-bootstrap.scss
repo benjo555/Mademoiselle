@@ -16,7 +16,7 @@ $navbar-light-icon-color: $light;
 
 
 $navbar-light-color:  $body-color;
-$navbar-light-hover-color: $light;
+$navbar-light-hover-color: darken($light, 30%);
 $navbar-light-active-color: $body-color;
 
 

@@ -1,0 +1,47 @@
+.team{
+    @media(min-width: 1200px){
+        padding-bottom: 6.7rem !important;
+    }
+    .team-wrapper{
+        border: 1px solid $light;
+        padding: 5.4rem 0;
+
+        .team-member{
+            .team-member-info{
+                .team-member-name{
+                    @media(min-width: 768px){
+                        font-size: 2.5rem;
+                    }
+                    @media(min-width: 992px){
+                        font-size: 3rem;
+                    }
+                }
+                .team-member-about{
+                    font-size: 1.6rem;
+                    line-height: 2.3rem;
+                    text-align: justify;
+                    @media(min-width: 768px){
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots{
+        @media(min-width: 992px){
+            margin-top: 0;
+            position: absolute;
+            left: 50%;
+            bottom: -5px;
+        }
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        @media(min-width: 992px){
+            width: 8px;
+            height: 8px;
+            margin: 5px 4.5px;
+        }
+    }
+    
+
+}
