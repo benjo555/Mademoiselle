@@ -2,6 +2,9 @@
     padding: 28.4rem 0;
 }
 .about{
+    @media(min-width: 768px){
+    padding-bottom: 5.8rem;
+    }
     .about-description{
         h2{
             font-size: 3rem;
