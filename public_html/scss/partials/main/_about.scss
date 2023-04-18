@@ -1,0 +1,51 @@
+.about-hero{
+    padding: 28.4rem 0;
+}
+.about{
+    .about-description{
+        h2{
+            font-size: 3rem;
+            line-height: 3.6rem;
+            max-width: 40rem;
+            @media(min-width: 768px){
+                font-size: 4.4rem;
+                line-height: 5rem;
+
+            }
+        }
+        h2,h3,h4,h5,h6,ul,ol,p{
+            margin-bottom: 3rem;
+        }
+        img{
+            margin-bottom: 4rem;
+            @media(min-width: 992px){
+                margin-bottom: 6.6rem;
+            }
+        }
+    }
+    .about-sidebar{
+        .search-form{
+            .form-control{
+                border-right: none;
+                border-radius: 0;
+                border-color: $body-color !important;
+                box-shadow: none !important;
+                font-size: 1.6rem;
+                padding: 2rem;
+                &::placeholder{
+                    color: $body-color;
+                    font-family: $bodoni;
+                    font-style: italic;
+                }
+            }
+            .search-btn{
+                transform: rotateY(180deg);
+                border-radius: 0;
+                transition: 0.4s linear;
+                border-right: none;
+                font-size: 1.6rem;
+                padding: 2rem;
+            }
+        }
+    }
+}
