@@ -1,19 +1,23 @@
 .single-service{
     @media(min-width: 992px){
-        padding: 8rem 0 6.6rem;
+        padding: 6rem 0 4.6rem;
     }
-    .single-service-info{
-        h2{
-            font-size: 3rem;
-            line-height: 3.6rem;
-            text-transform: uppercase;
-            @media(min-width: 768px){
-                font-size: 4.4rem;
-                line-height: 5rem;
-            }
+    @media(min-width: 1200px){
+        padding: 12rem 0 10.6rem;
+    }
+}
+.single-service-info{
+    h2{
+        font-size: 3rem;
+        line-height: 3.6rem;
+        max-width: 45rem;
+        text-transform: uppercase;
+        @media(min-width: 768px){
+            font-size: 4.4rem;
+            line-height: 5rem;
         }
-        h2,h3,h4,h5,h6,ul,ol,p{
-            margin-bottom: 2.5rem;
-        }
+    }
+    h2,h3,h4,h5,h6,ul,ol,p{
+        margin-bottom: 2.5rem;
     }
 }
