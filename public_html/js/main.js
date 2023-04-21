@@ -49,7 +49,7 @@ if($('.team-slider').length > 0){
 }
 
 
-/*
+
 
     if ($('.contact-form').length > 0) {
         $(function () {
@@ -70,26 +70,13 @@ if($('.team-slider').length > 0){
                         required: true,
                         email: true
                     },
-                    message: {
-                        required: true,
-                        maxlength: 255
-
-                    }
-                },
-                messages: {
-                    name: {
-                        required: 'Name* is required field!!!'
-                    },
-                    email: {
-                        required: 'Email* is required field!!!',
-                        email: 'Please insert valid Email address!!!'
+                    subject: {
+                      required: true  
                     },
                     message: {
-                        required: 'Message* is required field!!!',
-                        maxlength: 'Max Message length is 255 characters !!!'
-
+                        required: true
                     }
-
+                    
                 },
                 errorElement: 'p',
                 errorPlacement: function (error, element) {
@@ -100,6 +87,6 @@ if($('.team-slider').length > 0){
         });
     }//Form Validation
 
-*/
+
 
 });

@@ -12,6 +12,7 @@ p{
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.6rem;
+    margin-bottom: 0;
 }
 .homepage-title{
     font-family: $bodoni;
@@ -35,6 +36,9 @@ p{
             margin-inline: 0;
         }
     }
+}
+.invalid-feedback{
+    margin-top: 0;
 }
 a{
     color: $body-color;

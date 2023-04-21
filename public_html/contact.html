@@ -26,7 +26,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <meta name="application-name" content='Template'>
         <link rel="icon" type="image/png" href="./android-icon-192x192.png">
 
-
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
 
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
         <link href="css/developer.css" rel="stylesheet" type="text/css"/>
@@ -46,7 +47,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="about.html">about</a>
+                                <a class="nav-link" aria-current="page" href="about.html">about</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.html">
@@ -69,7 +70,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                                 <a class="nav-link" href="blog.html">blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
 
                         </ul>
@@ -79,14 +80,50 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         </header>
 
         <main>
-            <section class="error-section text-white text-center" style="background-image: linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%), url('./img/hero/error.png')">
+            <section class="contact-header my-6 my-md-8 my-lg-10 position-relative">
                 <div class="container">
-                    <h2 class="display-1 error-section-title">
-                        Error 404 Page not found
-                    </h2>
-                    <a href="index.html" class="btn btn-outline-primary text-uppercase error-btn">
-                        back to home
-                    </a>
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+                            <form class="contact-form h-100" method="POST" action="">
+                                <h2 class="contact-form-title text-uppercase mb-7">
+                                    Please contact us using the form bellow
+                                </h2>
+                                <div class="form-group mb-4 animation" data-animation="slideRight">
+                                    <input class="form-control rounded-0 border-0 px-4 py-2" type="text" name="name" placeholder="Name and surname*" value="">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                                <div class="form-group mb-4 animation" data-animation="slideRight">
+                                    <input class="form-control rounded-0 border-0 px-4 py-2" type="email" name="email" placeholder="Email address*" value="">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                                <div class="form-group mb-4 animation" data-animation="slideRight">
+                                    <input class="form-control rounded-0 border-0 px-4 py-2" type="text" name="subject" placeholder="Subject*" value="">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                                <div class="form-group mb-6 animation" data-animation="slideRight">
+                                    <textarea class="form-control rounded-0 border-0 px-4 py-2" style="resize: none;" rows="5" name="message" placeholder="Enter your message*" value=""></textarea>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+                                <div class="form-group animation" data-animation="slideRight">
+                                    <button type="submit" class="btn btn-outline-info px-6 submit-btn text-uppercase rounded-0">send message</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <figure class="contact-map ratio ratio-map mb-0 h-100 animation" data-animation="slideLeft">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6626.260751730959!2d151.19645349744593!3d-33.86053073371377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae4136fd92d5%3A0x5017d6816334950!2zQmFyYW5nYXJvbyDQndC-0LLQuCDQiNGD0LbQvdC4INCS0LXQu9GBIDIwMDAsINCQ0YPRgdGC0YDQsNC70LjRmNCw!5e0!3m2!1ssr!2srs!4v1681996935933!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-info mb-6 mb-md-8 mb-lg-9">
+                <div class="container">
+                    <div class="contact-info-wrapper text-center">
+                        <p class="mb-3 contact-info-data animation" data-animation="slideUp">146 Douglas Dale Suite 343</p>
+                        <a href="tel:560-748-5959" class="contact-info-data d-block mb-3 animation" data-animation="slideUp" data-delay="0.2s">560-748-5959</a>
+                        <a href="mailto:" class="contact-info-data d-block mb-3 animation" data-animation="slideUp" data-delay="0.4s">cullen_mueller@yahoo.com</a>
+                    </div>
                 </div>
             </section>
         </main>
